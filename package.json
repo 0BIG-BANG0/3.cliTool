@@ -1,0 +1,21 @@
+{
+  "name": "3.clitool",
+  "version": "1.0.0",
+  "description": "The goal is to create a command-line interface (CLI) tool that:",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "readfile": "./index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "cli-progress": "^3.12.0",
+    "ora": "^8.1.1"
+  }
+}
